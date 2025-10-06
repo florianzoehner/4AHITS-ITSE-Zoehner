@@ -1,0 +1,21 @@
+Hier ist dein Arbeitsbericht als durchgehender Text mit SSH‑Zugang:
+
+---
+
+# Arbeitsbericht – GitHub & VS Code unter Kali Linux
+
+**Datum:** 06.10.2025
+**Autor:** Florian Zöhner
+
+## Teil 1
+In dieser Aufgabe habe ich unter Kali Linux Visual Studio Code installiert und anschließend das GitHub‑Repository **4AHITS‑ITSE‑Zoehner** per **SSH** geklont. 
+Dafür habe ich mit dem Befehl `ssh-keygen` einen SSH‑Schlüssel erzeugt und den öffentlichen Schlüssel bei GitHub in den SSH‑Einstellungen hinterlegt. 
+Das Repository wurde dann mit  `git clone git@github.com:florianzoehner/4AHITS-ITSE-Zoehner.git` auf mein System geholt. 
+Mit `code .` habe ich das Projekt in VS Code geöffnet, die Datei `README.md` bearbeitet und meine Änderung gespeichert. 
+Anschließend nutzte ich `git add .`, `git commit -m "Änderung in Markdown-Datei am 06.10.2025"` und `git push`, um die Änderung per SSH in das Remote‑Repository zu übertragen. 
+Danach habe ich im Browser eine weitere Änderung direkt über die GitHub‑Weboberfläche an derselben Datei vorgenommen.
+Um diese Änderung im lokalen Klon sichtbar zu machen, führte ich `git pull` aus, und die Änderung wurde erfolgreich übernommen und war lokal sichtbar. 
+
+
+## Teil 2
+
