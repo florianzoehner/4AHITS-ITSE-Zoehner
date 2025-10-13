@@ -7,7 +7,7 @@
 **Datum:** 06.10.2025
 **Autor:** Florian Zöhner
 
-Aufgabenstellung:
+Aufgabenstellung:<br>
  
 - Installiere Kali und Metasploitable (falls noch nicht geschehen)
 - Stelle beide VMs auf Bridged ins Labor-Netz
@@ -18,7 +18,7 @@ Aufgabenstellung:
 <br>
 <br>
 <br>
-Lösung:
+Lösung: <br>
  
 Als erstes habe ich Kali Linux und Metasploitable 2 als virtuelle Maschinen installiert. Beide VMs habe ich so eingestellt, dass sie im Bridged-Modus laufen, damit sie im Labor-Netzwerk jeweils eine eigene IP-Adresse erhalten und miteinander kommunizieren können. Anschließend habe ich mit den Befehlen ifconfig und ip addr überprüft, ob die Netzwerkkonfiguration stimmt. Dann habe ich per ping die Erreichbarkeit zwischen den zwei VMs bestätigt.<br>
  
