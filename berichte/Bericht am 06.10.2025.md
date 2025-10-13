@@ -6,7 +6,9 @@
 
 **Datum:** 06.10.2025
 **Autor:** Florian Zöhner
-
+<br>
+<br>
+<br>
 Aufgabenstellung:<br>
  
 - Installiere Kali und Metasploitable (falls noch nicht geschehen)
