@@ -22,7 +22,7 @@ Aufgabenstellung:<br>
 <br>
 Lösung: <br>
  <br>
-Als erstes habe ich Kali Linux und Metasploitable 2 als virtuelle Maschinen installiert. Beide VMs habe ich so eingestellt, dass sie im Bridged-Modus laufen, damit sie im Labor-Netzwerk jeweils eine eigene IP-Adresse erhalten und miteinander kommunizieren können. Anschließend habe ich mit den Befehlen ifconfig und ip addr überprüft, ob die Netzwerkkonfiguration stimmt. Dann habe ich per ping die Erreichbarkeit zwischen den zwei VMs bestätigt.<br>
+Als erstes habe ich Kali Linux und Metasploitable als virtuelle Maschinen installiert. Beide VMs habe ich so eingestellt, dass sie im Bridged-Modus laufen, damit sie im Labor-Netzwerk jeweils eine eigene IP-Adresse erhalten und miteinander kommunizieren können. Anschließend habe ich mit den Befehlen ifconfig und ip addr überprüft, ob die Netzwerkkonfiguration stimmt. Dann habe ich per ping die Erreichbarkeit zwischen den zwei VMs bestätigt.<br>
  
 Danach habe ich auf meinem Kali-System Visual Studio Code installiert. Dazu habe ich das offizielle Repository von Microsoft eingebunden, die Paketlisten aktualisiert und das Paket „code“ installiert. Mit dem Befehl code konnte ich anschließend überprüfen, dass die Installation erfolgreich war.<br>
   
