@@ -14,16 +14,18 @@ Aufgabenstellung:
 - Installiere Visual Studio Code auf Kali Linux
 - Klone das Github Projekt in Kali, nimm mit VS Code eine Änderung im Markdown vor, führe add, commit und push durch und prüfe ob die Änderungen in der generierten html Seite ankommen (kurze Wartezeit)
 - Nimm nun über die GitHub Oberfläche eine Änderung vor und prüfe ob diese per git pull in den Klon auf Kali übernommen werden.
-- Dokumentiere alles wesentliche in einem Arbeitsbericht.
+- Dokumentiere alles wesentliche in einem Arbeitsbericht. <br>
+<br>
+<br>
+<br>
+Lösung:
  
+Als erstes habe ich Kali Linux und Metasploitable 2 als virtuelle Maschinen installiert. Beide VMs habe ich so eingestellt, dass sie im Bridged-Modus laufen, damit sie im Labor-Netzwerk jeweils eine eigene IP-Adresse erhalten und miteinander kommunizieren können. Anschließend habe ich mit den Befehlen ifconfig und ip addr überprüft, ob die Netzwerkkonfiguration stimmt. Dann habe ich per ping die Erreichbarkeit zwischen den zwei VMs bestätigt.<br>
  
- 
-Als erstes habe ich Kali Linux und Metasploitable 2 als virtuelle Maschinen installiert. Beide VMs habe ich so eingestellt, dass sie im Bridged-Modus laufen, damit sie im Labor-Netzwerk jeweils eine eigene IP-Adresse erhalten und miteinander kommunizieren können. Anschließend habe ich mit den Befehlen ifconfig und ip addr überprüft, ob die Netzwerkkonfiguration stimmt. Dann habe ich per ping die Erreichbarkeit zwischen den zwei VMs bestätigt.
- 
-Danach habe ich auf meinem Kali-System Visual Studio Code installiert. Dazu habe ich das offizielle Repository von Microsoft eingebunden, die Paketlisten aktualisiert und das Paket „code“ installiert. Mit dem Befehl code konnte ich anschließend überprüfen, dass die Installation erfolgreich war.
+Danach habe ich auf meinem Kali-System Visual Studio Code installiert. Dazu habe ich das offizielle Repository von Microsoft eingebunden, die Paketlisten aktualisiert und das Paket „code“ installiert. Mit dem Befehl code konnte ich anschließend überprüfen, dass die Installation erfolgreich war.<br>
   
 Anschließend habe ich das GitHub‑Repository **4AHITS‑ITSE‑Zoehner** per **SSH** geklont. 
-Dafür habe ich mit dem Befehl `ssh-keygen` einen SSH‑Schlüssel erzeugt und den öffentlichen Schlüssel bei GitHub in den SSH‑Einstellungen hinterlegt. 
+Dafür habe ich mit dem Befehl `ssh-keygen` einen SSH‑Schlüssel erzeugt und den öffentlichen Schlüssel bei GitHub in den SSH‑Einstellungen hinterlegt. <br>
  
 Das Repository wurde dann mit  `git clone git@github.com:florianzoehner/4AHITS-ITSE-Zoehner.git` auf mein System geholt. 
 Mit `code .` habe ich das Projekt in VS Code geöffnet, die Datei `README.md` bearbeitet und meine Änderung gespeichert. 
